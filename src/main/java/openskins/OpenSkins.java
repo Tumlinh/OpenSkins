@@ -21,9 +21,9 @@ public class OpenSkins
 	
     // Settings
     //public static String settingsPath = "openskins.cfg";
- 	public static String skinUrl1 = "http://51.254.213.111/openskins/textures.php?name=%s&skin";
- 	public static String capeUrl1 = "http://51.254.213.111/openskins/textures.php?name=%s&cape";
- 	public static String elytraUrl1 = "http://51.254.213.111/openskins/textures.php?name=%s&elytra";
+ 	public static String skinUrl1 = "http://127.0.0.1/textures.php?name=%s&skin";
+ 	public static String capeUrl1 = "http://127.0.0.1/textures.php?name=%s&cape";
+ 	public static String elytraUrl1 = "http://127.0.0.1/textures.php?name=%s&elytra";
  	public static String skinUrl2 = "http://skins.minecraft.net/MinecraftSkins/%s.png";
  	public static String capeUrl2 = "";
  	public static String elytraUrl2 = "";

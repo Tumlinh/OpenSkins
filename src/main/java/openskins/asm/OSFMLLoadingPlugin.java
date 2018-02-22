@@ -13,7 +13,7 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 public class OSFMLLoadingPlugin implements IFMLLoadingPlugin
 {
 	public static File location;
-	public static ArrayList<PatchedClass> patchedClasses;
+	public static ArrayList<PatchedClass> patchedClasses = new ArrayList<PatchedClass>();
 	public static int totalClassesNbr = 3;
 	public static int serverClassesNbr = 1;
 
@@ -45,9 +45,6 @@ public class OSFMLLoadingPlugin implements IFMLLoadingPlugin
 	{
 		// Get MC location
 		location = (File) data.get("mcLocation");
-
-		// Prepare list of patched classes
-		patchedClasses = new ArrayList<PatchedClass>();
 
 		// TileEntitySkull
 		patchedClasses.add(new PatchedClass("net.minecraft.tileentity.TileEntitySkull", "TileEntitySkull", "awb", "8c648e2785053d1ec177604af5e614a1",
