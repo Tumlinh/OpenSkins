@@ -1,0 +1,16 @@
+[
+{
+  "modid": "openskins",
+  "name": "OpenSkins",
+  "description": "OpenSkins makes possible for players to wear a cape and provides the ability to load your skin and cape textures from an alternative source",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tumlinh"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
